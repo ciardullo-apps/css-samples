@@ -1,0 +1,87 @@
+body {
+  background-color: #4863A0;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: small;
+}
+#parent{
+    text-align:center;
+}
+.white {
+  color: white;
+}
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+.heading {
+  font-size: 50px;
+  text-align:center;
+  margin-top: 40px;
+}
+.sm-title {
+  font-size: 20px;
+  padding-top: 15px;
+  font-family: monospace;
+  font-weight: bold;
+}
+.row1 {
+    margin: 0 auto;
+    padding: 40px;
+}
+.col1 {
+    display: inline-block;
+    background: white;
+    width: 270px;
+    border-style: solid;
+    margin: auto;
+}
+.col1-content {
+    width: 100%;
+    margin-top: 20px;
+}
+.greybox {
+   background-color: lightgrey;
+   font-size: xx-small;
+   color: grey;
+   line-height: 100px;
+   width: 100px;
+   height: 100px;
+}
+.regular-text {
+  text-align: left;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.center-div {
+  margin: 0 auto; /* this centre aligns each div in relation to its parent */
+}
+.fl {
+  float:left;
+}
+.fr {
+  float:right;
+}
+.tbl-cell {
+  display: table-cell;
+}
+.row2 {
+  width: 810px;
+  margin: 0 auto; /* this centre aligns each div in relation to its parent */
+  border-style: solid;
+  display: table;
+  padding: 15px;
+  background-color: white;
+}
+.regular-text2 {
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+.regular-text3 {
+  margin: 0 auto; /* this centre aligns each div in relation to its parent */
+  width: 40%;
+  text-align: center;
+  padding-top: 20px;
+}
